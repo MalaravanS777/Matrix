@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class HelloWorld {
+class spiral_matrix {
     public static void main(String[] args) {
         int r,c;
         Scanner sc=new Scanner(System.in);
