@@ -24,7 +24,7 @@ class spiral_matrix {
                 }
                 top++;
                 for(int i=top;i<=bottom;i++){
-                    System.out.print(matrix[right][i]+" ");
+                    System.out.print(matrix[i][right]+" ");
                 }
                 right--;
                 if(top<=bottom){
@@ -36,7 +36,7 @@ class spiral_matrix {
                 
                 if(left<=right){
                     for(int i=bottom;i>=top;i--){
-                        System.out.print(matrix[left][i]+" ");
+                        System.out.print(matrix[i][left]+" ");
                     }
                     left++;
                 }
